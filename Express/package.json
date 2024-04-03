@@ -2,8 +2,9 @@
   "name": "express",
   "version": "1.0.0",
   "description": "\"We are learning express js\",",
-  "main": ",",
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Prakruthi",
@@ -11,6 +12,7 @@
   "dependencies": {
     "express": "^4.19.1",
     "Express": "^3.0.1",
+    "mongoose": "^8.2.3",
     "nodemon": "^3.1.0"
   }
 }
